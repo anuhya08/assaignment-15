@@ -1,0 +1,46 @@
+.box-container{
+    width: 550px;
+    margin: 30px auto;
+    border:2px solid rgb(1, 71, 232);
+    
+  
+}
+.product{
+    height: 400px;
+
+ }
+
+.s-class button:nth-child(even){
+    border: none;
+    background-color: rgb(16, 221, 57);
+    padding: 12px 30px;
+    border-radius: 6px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+li{
+    list-style: none;
+
+}
+ul li:nth-child(even){
+    background-color: grey;
+    list-style: none;
+}
+ul li:nth-child(odd){
+    background-color: rgb(192, 143, 143);
+    list-style: none;
+}
+
+
+@media(max-width:576px){
+
+    .box-container{
+        margin: 8px;
+        border: none;
+        width: auto;
+    }
+    .product{
+        height: 280px;
+    
+    }
+}
